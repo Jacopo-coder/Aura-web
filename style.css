@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    margin-top: 300px;
     background-color: #1a1a1a;
     color: #e0e0e0;
     font-family: 'Courier New', Courier, monospace; 
@@ -100,7 +101,7 @@ section {
 main {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 170px;
 }
 
 nav {
@@ -117,6 +118,34 @@ nav a {
 
 nav a:hover {
     color: #ffffff;
+}
+
+#scroll {
+    background-image: url('scroll.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent; 
+    border: none;
+    outline: none;
+    
+    width: 100%; 
+    box-sizing: border-box;
+    margin: 30px 0px; 
+    padding: 60px 80px; 
+}
+
+
+#scroll h3, #scroll p {
+    text-shadow: none;
+}
+
+#scroll h3 {
+    color: #5c1d06;
+    font-family: 'Press Start 2P', monospace;
+}
+
+#scroll p {
+    color: #1e1108;
 }
 
 footer {
@@ -136,4 +165,21 @@ footer {
     h2 {
         font-size: 0.9rem;
     }
+}
+
+#requirements ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#requirements li {
+    margin-bottom: 12px;
+}
+
+#devlog pre {
+    background-color: #000000;
+    color: #39ff14;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
 }
